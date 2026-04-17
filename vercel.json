@@ -1,6 +1,4 @@
 {
   "installCommand": "corepack enable && pnpm install --no-frozen-lockfile",
-  "buildCommand": "pnpm build",
-  "outputDirectory": "dist",
-  "startCommand": "node dist/index.js"
+  "buildCommand": "pnpm build"
 }
