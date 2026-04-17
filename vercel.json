@@ -12,7 +12,7 @@
       "dest": "/dist/index.js"
     }
   ],
-  "installCommand": "corepack enable && pnpm install",
+  "installCommand": "corepack enable && pnpm install --no-frozen-lockfile",
   "buildCommand": "pnpm build",
   "outputDirectory": "dist"
 }
