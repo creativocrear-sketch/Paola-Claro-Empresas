@@ -12,7 +12,7 @@
       "dest": "/dist/index.js"
     }
   ],
-  "installCommand": "pnpm install",
+  "installCommand": "corepack enable && pnpm install",
   "buildCommand": "pnpm build",
   "outputDirectory": "dist"
 }
